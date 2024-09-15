@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/*global css*/
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+h5 {
+    color: rgb(94, 149, 216);
+    font-size: 14px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700px;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 25px;
+    color: white;
+}
+
+/* header section code start*/
+
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    /*justify-content: flex-start;*/
+    background-color: black;
+}
+.navbar .nav-item {
+    margin-left: 11px;
+
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+
+}
+
+.cus-hight {
+    height: 92vh;
+}
+.banner-section{
+    max-width: 960px;
+}
+header .banner-section {
+    width: 100%;
+    background: url(../img/2/2.jpg) center center no-repeat;
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    padding: 50px 0px !important;
+}
+header .banner-section h6 {
+    font-size: 15px;
+    font-weight: 700;
+  left: -370px;
+    color: #fbf9f9 !important;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+
+header .banner-section h2{
+    margin-left: 45px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+header .banner-section p {
+    font-family: "DM Sans", sans-serif;
+    margin-left: 45px;
+    width: 70%;
+    color: white;
+}
+*title{
+    margin: 50px;
+
+}
+.service-section{
+    background-color: rgb(255, 254, 254);
+    padding: 0px 0px 30px 0px;
+
+}
+h6 {
+
+    color: #c44953  !important;
+    
+        font-size: 1rem;
+        text-align: center;
+            font-size: 1rem;
+            padding: 30px 10px 0px 0px;
+
+}
+h1{
+    color: black!important;
+    text-align: center;
+padding: 0px 0px 30px 10px;
+}
+.padding-section{
+    background-color: black;
+}
+.padding-section h6 {
+
+    color: #c44953  !important;
+    
+        font-size: 1rem;
+        text-align: center;
+            font-size: 1rem;
+            padding: 40px 10px 0px 0px;
+
+}
+.padding-section h1{
+    color: white !important;
+    text-align: center;
+padding: 0px 0px 30px 10px;
+}
+.padding-section img, svg {
+    vertical-align: middle;
+    padding: 50px;
+    right: 50px !important;
+}
